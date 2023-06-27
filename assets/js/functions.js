@@ -51,7 +51,7 @@ $( document ).ready(function() {
 
   });
 
-  $('.cta').click(function(){
+    $('.cta').click(function () {
 
       var curActive = $('.side-nav').find('.is-active'),
           curPos = $('.side-nav').children().index(curActive),
