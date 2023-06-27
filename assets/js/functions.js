@@ -53,10 +53,10 @@ $( document ).ready(function() {
 
   $('.cta').click(function(){
 
-    var curActive = $('.side-nav').find('.is-active'),
-        curPos = $('.side-nav').children().index(curActive),
-        lastItem = $('.side-nav').children().length - 3,
-        nextPos = lastItem;
+      var curActive = $('.side-nav').find('.is-active'),
+          curPos = $('.side-nav').children().index(curActive),
+          lastItem = $('.side-nav').children().length - 3,
+          nextPos = 1;
 
     updateNavs(lastItem);
     updateContent(curPos, nextPos, lastItem);
