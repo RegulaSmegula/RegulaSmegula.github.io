@@ -149,6 +149,12 @@ $( document ).ready(function() {
       $('.header--cta').removeClass('is-active');
     }
 
+    if (nextPos !== 0 && nextPos !== lastItem) {
+      $('.header--cta--repo').addClass('is-active');
+    }
+    else {
+      $('.header--cta--repo').removeClass('is-active');
+    }
   }
 
   function outerNav() {
